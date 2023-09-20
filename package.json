@@ -1,0 +1,23 @@
+{
+  "name": "opentwitchpinger",
+  "version": "1.0.0",
+  "description": "discord bot to ping when channels go live",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "keywords": [
+    "discord",
+    "twitch",
+    "ping"
+  ],
+  "author": "NoeJuza",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "level": "^8.0.0",
+    "twitch": "^4.6.7",
+    "twitch-auth": "^4.6.7"
+  }
+}

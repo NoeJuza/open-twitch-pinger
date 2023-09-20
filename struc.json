@@ -1,0 +1,7 @@
+[{
+    "chanId": "Integer",
+    "streams":[{
+        "user" : "User",
+        "wasLive" : "Boolean" 
+    }]
+}]
