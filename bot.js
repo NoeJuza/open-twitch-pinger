@@ -1,7 +1,8 @@
 require('dotenv').config();
 const { Level } = require('level');
-const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder, Guild, EmbedBuilder, TextInputStyle } = require('discord.js');
+const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder, Guild, EmbedBuilder, TextInputStyle,ModalBuilder, ActionRowBuilder, TextInputBuilder, } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.DirectMessages] });
+
 const { ApiClient, Stream } = require('twitch');
 const { ClientCredentialsAuthProvider } = require('twitch-auth');
 const authProvider  = new ClientCredentialsAuthProvider(process.env.TWITCHID, process.env.TWITCHSECRET);
@@ -25,7 +26,6 @@ const notifyChans = async (userObj,stream) =>{
                                     
     filtered.forEach(chan => chan.send({"content":`:warning: @everyone ${userObj.displayName} is streaming now!!!`,"embeds": [embed]} ))
 }
-
 const wave = {name: "wave", type:2}
 const infos = new SlashCommandBuilder()
                     .setName('infos')
@@ -121,7 +121,6 @@ client.on('messageCreate', async (message) => {
     return false;
 });
 client.on('interactionCreate', async interaction => {
-
     if (interaction.commandName == "wave"){
         interaction.reply(`:wave: <@${interaction.targetId}>`);
     }
