@@ -162,4 +162,4 @@ Project Link: [https://github.com/NoeJuza/open-twitch-pinger](https://github.com
 [issues-shield]: https://img.shields.io/github/issues/NoeJuza/open-twitch-pinger.svg?style=flat-square
 [issues-url]: https://github.com/NoeJuza/open-twitch-pinger/issues
 [license-shield]: https://img.shields.io/github/license/NoeJuza/open-twitch-pinger.svg?style=flat-square
-[license-url]: https://github.com/NoeJuza/open-twitch-pinger/blob/master/LICENSE
+[license-url]: https://github.com/NoeJuza/open-twitch-pinger/blob/main/LICENSE
