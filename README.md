@@ -78,7 +78,8 @@ OR
 * [Docker](https://www.docker.com/)
 
 
-* npm
+
+### Update npm
 ```sh
 npm install npm@latest -g
 ```
