@@ -16,7 +16,7 @@
   <h3 align="center">Open Twitch Pinger</h3>
 
   <p align="center">
-    "In the Age of the Internet, a New Era of Freedom Shall Rise!"
+    "In a dark age of the Age of the Internet, a New Era of Freedom Shall Rise!"
     <br />
     <a href="./MANIFESTO.md">Read the manifesto</a>
     ·
